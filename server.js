@@ -9,8 +9,8 @@ const DB_URL =
   "mongodb+srv://vedoorbbs:Pass11wod22veo@cluster0.ahnfv68.mongodb.net/f2023_comp3123?retryWrites=true&w=majority";
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.use("/api/v1/emp/employees", employeeRoutes);
-app.use("/api/v1/user", userRoutes);
+apiv1.use("/emp/employees", employeeRoutes);
+apiv1.use("/user", userRoutes);
 app.use("/api/v1", apiv1);
 
 mongoose.Promise = global.Promise;

@@ -1,9 +1,7 @@
 const express = require("express");
 const userRouter = express.Router();
 const userModel = require("../models/User");
-userRouter.get("/", (req, res) => {
-  res.send("<h1>this is the root of the users</h1>");
-});
+
 userRouter.post("/signup", async (req, res) => {
   if (req.body) {
     try {
@@ -36,13 +34,11 @@ userRouter.post("/login", async (req, res) => {
       console.log(userFound);
 
       if (userFound) {
-        res
-          .status(302)
-          .send({
-            status: true,
-            username: userFound.email,
-            message: "User logged in successfully",
-          });
+        res.status(302).send({
+          status: true,
+          username: userFound.email,
+          message: "User logged in successfully",
+        });
       } else {
         res
           .status(404)

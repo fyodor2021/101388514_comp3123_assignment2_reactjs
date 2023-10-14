@@ -82,4 +82,3 @@ employeeRouter.delete("/", async (req, res) => {
   }
 });
 module.exports = employeeRouter;
-yield;
