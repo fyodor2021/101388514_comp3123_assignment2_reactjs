@@ -1,0 +1,125 @@
+table{
+    width: 80vw;
+
+}
+
+.table-head-items{
+    position: absolute;
+    padding: 1px;
+}
+.employee-text-item{
+    font-size: 17px;
+    margin-right: 10px;
+    padding: 20px;
+    border-right: 1px solid black;
+    border-top: 1px solid black
+}
+.page{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.employee-crud-buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.employee-buttons{
+    width: 87px;
+    height: 43px;
+    border-radius: 10px;
+    border: none;
+    background-color: lightblue;
+    margin: 3px;
+}
+.add-employee-button{
+    width: 87%;
+    height: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: lightblue;
+    color: white;
+}
+.button-text{
+
+    color: white;
+    font-size: 130%;
+    font-weight: bold;
+}
+.input-label-group{
+    margin: 40px;
+}
+.form-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 2px lightblue;
+      
+    /* box-shadow: #999999 8px 7px; */
+}
+.header{
+    font-size: 50px;
+    width: 98.5%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0px -4px 13px 2px lightblue;
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 22px;
+    font-size:38px;
+}
+.login-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    height: 23vw;
+    padding: 10px;
+}
+.input-label-group-login{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.form-element-container{
+    width:27%;
+       display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 2px lightblue;
+    padding:10px
+}
+.update-inputs{
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: lightgray;
+    padding: 10px;
+}
+.view-info-container{
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+    
+}
+.view-text{
+    font-size: 30px;
+    margin-right: 28px;
+    
+}
+.view-container{
+    display: flex;
+    width: 64%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 2px lightblue;
+    padding: 10px;
+    flex-direction: column;
+}
